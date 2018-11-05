@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>中文后台管理系统</title>
+    <!-- 引入bootstrap -->
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <!-- 矢量图标 -->
+    <link href="./css/font-awesome.css" rel="stylesheet">
+    <!-- 页面样式 -->
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+    <!-- 顶部标题栏 -->
+    <header class="container">
+    <div class="row">
+        <div class="left col-lg-2 col-md-3 col-sm-12 text-center">    
+            <span class=""><a href="" class="fa fa-reply"></a></span>
+            <span class=""><a href="" class="fa fa-user"></a></span>
+            <span class=""><a href="" class="fa fa-envelope"></a></span>
+            <span class=""><a href="" class="fa fa-cog"></a></span>
+        </div>
+        <div class="center col-lg-8 col-md-6 col-xs-6 text-left">
+            <a href="" class="fa fa-neuter"></a>
+            <input type="text" class="searchBox" >
+        </div>
+        <div class="right col-lg-2 col-md-3 col-xs-6 text-right">
+            <span class="online"><span>在线&nbsp;&nbsp;</span><i class="fa fa-circle"></i></span>&nbsp;&nbsp;
+            <a href="" class="fa fa-power-off">&nbsp;&nbsp;注销</a>
+        </div>
+    </div>
+    </header>
+    <!-- 主体内容 -->
+    <section class="container">
+        <div class="row">
+            <!-- 左侧栏 -->
+            <aside class="aside-left  col-lg-2 col-md-3">
+                <div class="time text-center"> <img class="img" src="img/0.png" /> <img class="img" src="img/0.png" /> : <img class="img" src="img/0.png" /> <img class="img" src="img/0.png" /> : <img class="img" src="img/0.png" /> <img class="img" src="img/0.png" /></div>
+                <div class="title text-center"><span>中文后台管理系统</span></div>
+                <div class="text-center"><span class="name">超级管理员</span></div>
+                <div class="btngroups">
+                    <div class="aside-btn1 active"><i class="fa fa-home">&nbsp;&nbsp;开始</i></div>
+                    <div class="aside-btn2"><i class="fa fa-star">&nbsp;&nbsp;商品中心</i></div>
+                    <div class="aside-btn3"><i class="fa fa-cart-plus">&nbsp;&nbsp;订单管理</i></div>
+                    <div class="aside-btn4"><i class="fa fa-users">&nbsp;&nbsp;会员管理</i></div>
+                    <div class="aside-btn5"><i class="fa fa-file-text">&nbsp;&nbsp;内容管理</i></div>
+                    <div class="aside-btn6"><i class="fa fa-file">&nbsp;&nbsp;文件管理</i></div>
+                    <div class="aside-btn7"><i class="fa fa-th-list">&nbsp;&nbsp;栏目设置</i></div>
+                    <div class="aside-btn8"><i class="fa fa-cog">&nbsp;&nbsp;系统设置</i>
+                        <p class="aside-btn8-1"><i class="fa fa-globe">&nbsp;&nbsp;网站设置</i></p>
+                        <p class=""><i class="fa fa-user">&nbsp;&nbsp;用户设置</i></p>
+                        <p class=""><i class="fa fa-database">&nbsp;&nbsp;数据库设置</i></p>
+                        <p class="aside-btn8-4"><i class="fa fa-heart">&nbsp;&nbsp;积分设置</i></p>
+                    </div>
+                </div>
+            </aside>
+
+            <!------------------ 中部 -------------------------->
+            <section class="section-center col-lg-8 col-md-9">
+
+
+                <!-- 上部1 -->
+                <div class="row section-top1">
+                    <div class="center-btn section-top1-content col-lg-12"><i class="fa fa-home"></i>&nbsp;&nbsp;开始</div>
+                </div>
+                <!-- 上部2 -->
+                <div class="row section-top2">
+                    <div class="section-top2-content col-xs-3 text-center">129
+                        <div class="section-top2-content2 text-center">内容</div>
+                    </div> 
+                    <div class="section-top2-content col-xs-3 text-center">361
+                        <div class="section-top2-content2 text-center">会员</div>
+                    </div> 
+                    <div class="section-top2-content col-xs-3 text-center">680
+                        <div class="section-top2-content2 text-center">产品</div>
+                    </div> 
+                    <div class="section-top2-content col-xs-3 text-center content3">2869
+                        <div class="section-top2-content2 text-center">订单</div>
+                    </div> 
+                </div>
+
+
+                <!-- 中部 -->
+                <div class="container-center">
+
+                    <!-- 最新会员 -->
+                    <div class="aaaa row section-top1">
+                        <div class="col-xs-5 text-left">
+                            <span class="new-user"><i class="fa fa-user"></i>&nbsp;&nbsp;最新会员</span>
+                        </div>
+                        <div class="col-xs-7 text-right">
+                            <span class="number">今日&nbsp;<span class="number2">156</span></span>&nbsp;
+                            <span class="number">总计&nbsp;<span class="number2">9802</span></span>
+                        </div>
+                    </div>
+                    <!-- 用户头像 -->
+                    <div class="border row section-top2">
+                        <!-- 左4头像 -->
+                        <div class="padding col-sm-6">
+                            <div class="section-top2-content3 col-xs-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">董乐</div>
+                            </div>
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">张莉</div>
+                            </div>
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">苏婷</div>
+                            </div>
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">陈圆</div>
+                            </div>
+                        </div>
+                        <!-- 右4头像 -->
+                        <div class="padding col-sm-6">
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">Michael</div>
+                            </div>
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">乐乐</div>
+                            </div>
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">黄波</div>
+                            </div>
+                            <div class="section-top2-content3 col-xs-3 col-md-3 text-center">
+                                <img class="photo" src="./img/头像.jpg">
+                                <div class="text-center">李丽</div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <!---------------- 下部 --------------------->
+                <div class="row section-bottom">
+                    <!--------------- 左：最新订单 -------------->
+                    <div class="padding1 col-sm-6 col-xs-12">
+                        <div class="section-bottom-content1 border">
+                            <!-- 左：标题 -->
+                            <div class="top"><i class="fa fa-cart-plus"></i>&nbsp;&nbsp;最新订单</div>
+                            <div class="overflow">
+                            <!-- 左：聊天框1 -->
+                            <div class="comment-box row">
+                                <div class="text-center col-xs-2"><img class="photo2" src="./img/头像.jpg"></div>
+                                <div class="comment-box-padding col-xs-10">
+                                    <div class="">
+                                        <b>董乐</b>
+                                        <span class="comment-time">2小时前</span>
+                                        <span class="comment-right">交易成功</span>
+                                    </div>
+                                    <div class="comment-btn">
+                                        <span class="black-line1"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;评价</span>
+                                        <span class="black-line2"><i class="fa fa-plane"></i>&nbsp;&nbsp;发货</span>
+                                        <span class="black-line3"><i class="fa fa-trash"></i>&nbsp;&nbsp;删除</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 左：聊天框2 -->
+                            <div class="comment-box row">
+                                <div class="text-center col-xs-2"><img class="photo2" src="./img/头像.jpg"></div>
+                                <div class="comment-box-padding col-xs-10">
+                                    <div class="">
+                                        <b>苏婷</b>
+                                        <span class="comment-time">1天前</span>
+                                        <span class="comment-right">交易成功</span>
+                                    </div>
+                                    <div class="comment-btn">
+                                        <span class="black-line1"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;评价</span>
+                                        <span class="black-line2"><i class="fa fa-plane"></i>&nbsp;&nbsp;发货</span>
+                                        <span class="black-line3"><i class="fa fa-trash"></i>&nbsp;&nbsp;删除</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>                                                       
+                        </div>
+                    </div> 
+                    <!----------------- 右：最新消息 ------------------->
+                    <div class="padding2 col-sm-6 col-xs-12">
+                        <div class="section-bottom-content2 border">
+                            <!-- 右：标题 -->
+                            <div class="top"><i class="fa fa-comments"></i>&nbsp;&nbsp;最新消息</div>
+                            <div class="overflow">
+                            <!-- 右：聊天框1 -->
+                            <div class="comment-box row">
+                                <div class="text-center col-xs-2"><img class="photo2" src="./img/头像.jpg"></div>
+                                <div class="comment-box-padding col-xs-10">
+                                    <div class="">
+                                        <b>董乐</b>
+                                        <span class="comment-time">10小时前</span>
+                                    </div>
+                                    <div class="comment-right2">请问这个商品有什么样的功能，卖多少钱？什么时候可以发货？</div>
+                                    <div class="comment-btn comment-btn2">
+                                        <span class="black-line1"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;回复</span>
+                                        <span class="black-line2"><i class="fa fa-pencil"></i>&nbsp;&nbsp;编辑</span>
+                                        <span class="black-line3"><i class="fa fa-trash"></i>&nbsp;&nbsp;删除</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 右：聊天框2 -->
+                            <div class="comment-box row">
+                                <div class="text-center col-xs-2"><img class="photo2" src="./img/头像.jpg"></div>
+                                <div class="comment-box-padding col-xs-10">
+                                    <div class="">
+                                        <b>张莉</b>
+                                        <span class="comment-time">12小时前</span>
+                                    </div>
+                                    <div class="comment-right2">请问这个商品有什么样的功能，卖多少钱？什么时候可以发货？</div>
+                                    <div class="comment-btn comment-btn2">
+                                        <span class="black-line1"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;回复</span>
+                                        <span class="black-line2"><i class="fa fa-pencil"></i>&nbsp;&nbsp;编辑</span>
+                                        <span class="black-line3"><i class="fa fa-trash"></i>&nbsp;&nbsp;删除</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 右：聊天框3 -->
+                            <div class="comment-box row">
+                                <div class="text-center col-xs-2"><img class="photo2" src="./img/头像.jpg"></div>
+                                <div class="comment-box-padding col-xs-10">
+                                    <div class="">
+                                        <b>苏婷</b>
+                                        <span class="comment-time">1天前</span>
+                                    </div>
+                                    <div class="comment-right2">请问这个商品有什么样的功能，卖多少钱？什么时候可以发货？</div>
+                                    <div class="comment-btn comment-btn2">
+                                        <span class="black-line1"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;回复</span>
+                                        <span class="black-line2"><i class="fa fa-pencil"></i>&nbsp;&nbsp;编辑</span>
+                                        <span class="black-line3"><i class="fa fa-trash"></i>&nbsp;&nbsp;删除</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>                                                                                                                                                                                                          
+                        </div>
+                    </div>    
+                </div>    
+            </section>
+
+            <!-- 右侧栏 -->
+            <aside class="aside-right col-lg-2 col-md-12 col-sm-12">
+                <div class="right-title text-center">最强后台</div>
+                <div class="right-section col-lg-12 col-sm-3 col-xs-6">
+                    <p class="text-center"><i class="fa fa-history"></i></p>
+                    <p class="right-section-title text-center">历时打造</p>
+                    <p class="right-section-content">精心策划，专业设计，潜心制作，只做精品，力求完美。</p>
+                </div>
+                <div class="right-section col-lg-12 col-sm-3 col-xs-6">
+                    <p class="text-center"><i class="fa fa-pencil-square"></i></p>
+                    <p class="right-section-title text-center">精心设计</p>
+                    <p class="right-section-content">专业设计师追求极致，关注每一个细节、流程、人性化定制。</p>
+                </div>
+                <div class="right-section col-lg-12 col-sm-3 col-xs-6">
+                    <p class="text-center"><i class="fa fa-image"></i></p>
+                    <p class="right-section-title text-center">P图大师</p>
+                    <p class="right-section-content">基于优秀的拼图前段框架构建，易于灵活制定、扩展，便捷。</p>
+                </div>
+                <div class="right-section col-lg-12 col-sm-3 col-xs-6">
+                    <p class="text-center"><i class="fa fa-thumbs-up"></i></p>
+                    <p class="right-section-title text-center">最强后台</p>
+                    <p class="right-section-content">做最强中文后台，别具一格，呈现精彩数据管理。</p>
+                </div>
+                <div class="right-section col-lg-12 col-sm-3 col-xs-6">
+                    <p class="text-center"><i class="fa fa-paper-plane"></i></p>
+                    <p class="right-section-title text-center">技术支持</p>
+                    <p class="right-section-content">欢迎注册成为会员，定期更新维护，尊享全套技术服务支持。</p>
+                </div>
+            </aside>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+<!-- 主逻辑函数 -->
+<script src="./app.js" ></script>
